@@ -1,0 +1,92 @@
+body {
+    font-family: "Arial", "Open-Sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: white;
+    background-color: #1d1f24;
+    margin: 0;
+    padding: 0;
+}
+
+* :after, :before {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, p {
+    margin: 0;
+}
+
+svg {
+    vertical-align: middle;
+}
+
+.container {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+.header-menu {
+    min-height: 100px;
+    padding: 40px 0;
+    width: 100%;
+    text-align: right;
+    display: flex;
+    align-items: center;
+}
+
+.menu-nav {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 0;
+}
+
+.menu-nav-item {
+    background: transparent;
+    cursor: pointer;
+    color: white;
+    border: 0;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.footer-nav {
+    position: absolute;
+    left: 246px;
+    bottom: 0;
+}
+
+.page-footer_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 50px 0;
+    font-size: 15px;
+}
+
+.footer-icons {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+}
+
+.footer-designer-name,
+.footer-copyright,
+.footer-body {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.social-icon {
+
+}
+
+.social-icon a {
+    color: #FFF;
+}

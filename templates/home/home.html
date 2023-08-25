@@ -1,0 +1,26 @@
+{% extends 'home/base.html' %}
+{% load static %}
+{% block css %}
+<link rel="stylesheet" href="{% static 'css/home.css' %}">
+{% endblock %}
+
+{% block content%}
+<section class="main-page">
+    <div class="container">
+        <div class="banners">
+            <div class="banner-left">
+                <h1>Hello, I’m Daria.</h1>
+                <p>I’m a Web Developer.</p>
+                <div class="link-to-about">
+                    <a href="{% url 'about' %}">More about me</a>
+                    <img src="{% static 'home/arrow.svg' %}" alt="Arrow">
+                </div>
+            </div>
+            <div class="main-picture">
+                <img src="{% static 'home/main_picture.svg' %}" alt="Web development">
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock content%}

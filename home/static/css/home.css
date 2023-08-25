@@ -1,0 +1,33 @@
+.banners {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+}
+
+.banner-left h1 {
+    font-size: 80px;
+    margin-bottom: 20px;
+    padding-top: 150px;
+}
+
+.banner-left p {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.link-to-about {
+    display: flex;
+    align-items: center;
+    max-width: 165px;
+    justify-content: space-between;
+}
+
+.link-to-about a {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+.main-picture img {
+    width: 600px;
+    height: 600px;
+}
