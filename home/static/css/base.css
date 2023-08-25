@@ -54,9 +54,7 @@ svg {
 }
 
 .footer-nav {
-    position: absolute;
-    left: 246px;
-    bottom: 0;
+    position: sticky;
 }
 
 .page-footer_wrapper {
@@ -81,10 +79,6 @@ svg {
     height: 40px;
     display: flex;
     align-items: center;
-}
-
-.social-icon {
-
 }
 
 .social-icon a {
