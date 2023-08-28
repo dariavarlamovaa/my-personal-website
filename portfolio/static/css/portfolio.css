@@ -1,33 +1,37 @@
-.projects h1{
-    margin-bottom: 60px;
+.projects h1 {
+    margin-bottom: 30px;
     text-align: center;
 }
 
 .my-project {
     display: table-cell;
-    flex-wrap: wrap;
     width: 30%;
-    margin-bottom: 60px;
     text-align: center;
-
 }
 
 .my-project img {
     width: 500px;
     margin-bottom: 20px;
+    padding-top: 20px;
 }
 
 .my-project p {
     padding: 23px 58px;
-    box-sizing: border-box;
     text-align: justify;
     line-height: 1.5;
     min-height: 222px;
 }
 
-.my-project a {
+.project-button {
     background-color: #6486c6;
-    padding: .375rem .75rem;
+    padding: 15px 40px;
+    margin: 0 20px 30px 0;
+    border: none;
+    font-size: 20px;
+
+}
+
+.project-button a {
     color: #FFFFFF;
-    margin-right: 20px;
+
 }
